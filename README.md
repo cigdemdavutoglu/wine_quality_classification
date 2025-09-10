@@ -21,3 +21,6 @@ The dataset contains various features such as alcohol content, acidity, sulfates
 ## Results
 - Accuracy: 82%  
 - Best performance on Medium quality wines
+
+## License
+MIT License
