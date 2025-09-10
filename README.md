@@ -1,11 +1,23 @@
-# wine_quality
+# Wine Quality Classification
 
-The Red Wine Quality dataset from kaggle.
+## Project Overview
+This project aims to classify wine quality into three categories: Low, Medium, and High based on physicochemical properties using machine learning techniques.
 
-The dataset contains details about samples of wine and different features accounting for the concentrations of the different chemicals in the wine. The target variable is the quality of the wine on a scale of 0-10.
+## Dataset
+The dataset contains various features such as alcohol content, acidity, sulfates, etc. The original dataset is available [here](link_to_dataset).
 
-I have first explored and analyzed the data and visualized using pandas,matplotlib,seaborn library and studied distribution of different categorical as well as numerical features.Then I categorized the target variable.
+## Methodology
+- Data preprocessing (handling duplicates, encoding labels)
+- Exploratory Data Analysis (EDA)
+- Balancing classes with SMOTE
+- Modeling with XGBoost
+- Performance evaluation using classification report and confusion matrix
 
-Finally I have used different ML algorithms from the scikit learn including SVM,RandomForest etc... . I have also tuned the parameters of all the algorithms using the GridSearchCV function.
+## How to Run
+1. Clone the repository  
+2. Install dependencies: `pip install -r requirements.txt`  
+3. Run the notebook/script
 
-Lastly I got an accuracy of %84 on the dataset by using a Random Forest
+## Results
+- Accuracy: 82%  
+- Best performance on Medium quality wines
