@@ -30,11 +30,11 @@ Due to class imbalance and limited range, quality scores were grouped into three
 
 ### 📊 Confusion Matrix
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](https://raw.githubusercontent.com/cigdemdavutoglu/wine_quality/main/images/confusion_matrix.png)
 
 ### 📊 Classification Report (Barplot)
 
-![Classification Report](https://github.com/cigdemdavutoglu/wine_quality/blob/main/images/classification_report_barplot.png)
+![Classification Report](https://raw.githubusercontent.com/cigdemdavutoglu/wine_quality/main/images/classification_report_barplot.png)
 
 
 ## How to Run
