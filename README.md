@@ -1,9 +1,9 @@
-Wine Quality Classification
+## Wine Quality Classification
 
 Project Overview
 This project aims to classify wine quality into three categories: Low, Medium, and High based on physicochemical properties using machine learning techniques.
 
-Dataset
+## Dataset
 The dataset contains **11 physicochemical features** of red wine samples, with a target variable `quality` (integer values from 3 to 8).  
 Due to class imbalance and limited range, quality scores were grouped into three categories:
 
@@ -11,14 +11,14 @@ Due to class imbalance and limited range, quality scores were grouped into three
 - **Medium** (quality 5–6)
 - **High** (quality ≥ 7)
 
-Methodology
+## Methodology
 - Data preprocessing (handling duplicates, encoding labels)
 - Exploratory Data Analysis (EDA)
 - Balancing classes with SMOTE
 - Modeling with XGBoost
 - Performance evaluation using classification report and confusion matrix
 
-📈 Classification Report:
+## 📈 Classification Report:
 
 | Class  | Precision | Recall | F1-score | Support |
 |--------|-----------|--------|----------|---------|
@@ -28,23 +28,23 @@ Methodology
 |        |           |        |          |         |
 | **Accuracy** |       |        | **0.82** | 272     |
 
-📊 Confusion Matrix
+## 📊 Confusion Matrix
 
 ![Confusion Matrix](images/confusion_matrix.png)
 
-📊 Classification Report (Barplot)
+## 📊 Classification Report (Barplot)
 
 ![Classification Report](images/classification_report_barplot.png)
 
 
- How to Run
+## How to Run
 1. Clone the repository  
 2. Install dependencies: `pip install -r requirements.txt`  
 3. Run the notebook/script
 
-Results
+## Results
 - Accuracy: 82%  
 - Best performance on Medium quality wines
 
-License
+## License
 MIT License
