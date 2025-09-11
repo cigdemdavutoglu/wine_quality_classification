@@ -34,7 +34,7 @@ Due to class imbalance and limited range, quality scores were grouped into three
 
 ### 📊 Classification Report (Barplot)
 
-![Classification Report](images/classification_report_barplot.png)
+![Classification Report](https://github.com/cigdemdavutoglu/wine_quality/blob/main/images/classification_report_barplot.png)
 
 
 ## How to Run
